@@ -85,7 +85,11 @@ export default function Header({ onCalculateClick }: HeaderProps) {
           id="header-brand-btn"
         >
           <div className="w-10 h-10 rounded-lg bg-neutral-800 border border-neutral-700/80 flex items-center justify-center transition-all duration-300 group-hover:border-neutral-500 overflow-hidden relative">
-            <span className="font-mono text-sm text-neutral-300 group-hover:text-amber-400 transition-colors z-10 font-bold">KC</span>
+            <img 
+              src="/assets/images/logo.png" 
+              alt="Logo" 
+              className="w-full h-full object-cover z-10 group-hover:scale-110 transition-transform duration-300"
+            />
             {/* Subtle glow effect */}
             <div className="absolute inset-x-0 bottom-0 h-1 bg-amber-500/80 scale-x-0 group-hover:scale-x-100 transition-transform origin-left duration-300" />
           </div>

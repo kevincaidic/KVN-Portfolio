@@ -110,7 +110,7 @@ export default function App() {
                   transition={{ duration: 0.5, delay: 0.1 }}
                   className="font-display text-4xl sm:text-5xl md:text-6xl font-extrabold text-neutral-50 tracking-tight leading-tighter"
                 >
-                  Kevin O. Caidic
+                  Kevin Caidic
                 </motion.h1>
                 <motion.p 
                   initial={{ opacity: 0, y: 15 }}
